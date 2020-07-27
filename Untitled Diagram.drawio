@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-27T23:14:33.153Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15" etag="7qI91djydvOCWSg4XWxH" version="13.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-27T23:17:45.721Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15" etag="neLI1cNtX8AixCeQwAJB" version="13.5.3" type="github">
   <diagram id="0MyxCYmi0HsOvnk1gjU4" name="Page-1">
     <mxGraphModel dx="524" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -43,8 +43,12 @@
         <mxCell id="21ggu57utm0WO7wQbZsQ-14" value="ALB&lt;br&gt;Sticky sesión" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="190" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="21ggu57utm0WO7wQbZsQ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="21ggu57utm0WO7wQbZsQ-16" target="21ggu57utm0WO7wQbZsQ-14">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="21ggu57utm0WO7wQbZsQ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="21ggu57utm0WO7wQbZsQ-22" target="21ggu57utm0WO7wQbZsQ-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="270" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="21ggu57utm0WO7wQbZsQ-16" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="360" y="280" width="40" height="40" as="geometry" />
@@ -61,8 +65,14 @@
         <mxCell id="21ggu57utm0WO7wQbZsQ-20" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="396" y="320" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="21ggu57utm0WO7wQbZsQ-21" value="Local Compute Resources" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="21ggu57utm0WO7wQbZsQ-21" value="compute resources" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="310" y="360" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="21ggu57utm0WO7wQbZsQ-22" value="specific&lt;br&gt;instance" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="430" y="270" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="21ggu57utm0WO7wQbZsQ-23" value="&lt;h1&gt;if HTTP/S,&amp;nbsp;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 12px ; font-weight: normal&quot;&gt;use ALB&#39;s sticky session to bind to a specific compute resource&amp;nbsp;during&amp;nbsp;the session&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="450" width="200" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
